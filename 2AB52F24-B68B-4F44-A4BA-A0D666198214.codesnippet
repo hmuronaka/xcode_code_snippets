@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>assign</string>
+	<string>array</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, assign) &lt;#name#&gt;</string>
+	<string>NSMutableArray* &lt;#name#&gt; = [NSMutableArray array];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E110CEC0-05C3-4CE4-A024-39719D67BD95</string>
+	<string>2AB52F24-B68B-4F44-A4BA-A0D666198214</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>array</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property(assign)</string>
+	<string>NSMutableArray array</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -17,10 +17,10 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>@property(nonatomic, weak)</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weak</string>
+	<string>@property(weak)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
