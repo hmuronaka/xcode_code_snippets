@@ -6,14 +6,14 @@
 	<string>weak</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@property(nonatomic, weak) &lt;#name#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>050AF0E0-100A-4007-81BE-03B41BCCC035</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>@property(nonatomic, weak)</string>
 	<key>IDECodeSnippetTitle</key>
