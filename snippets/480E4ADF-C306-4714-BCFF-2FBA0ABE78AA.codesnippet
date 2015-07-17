@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong</string>
+	<string>uiimageview</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, strong) &lt;#name#&gt;</string>
+	<string>@property(nonatomic, strong) UIImageView* &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CE2EDA0D-FB6E-412D-90D9-13224B8B162A</string>
+	<string>480E4ADF-C306-4714-BCFF-2FBA0ABE78AA</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>strong</string>
+	<string>uiimageview declaration</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property(nonatomic, strong)</string>
+	<string>UIImageView declaration</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,21 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong</string>
+	<string>arc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, strong) &lt;#name#&gt;</string>
+	<string>#if ! __has_feature(objc_arc)
+    #warning This file must be compiled with ARC. Use -fobjc-arc flag (or convert project to ARC).
+#endif</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CE2EDA0D-FB6E-412D-90D9-13224B8B162A</string>
+	<string>5AC0697F-137C-4A28-847C-49F7AE583252</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>strong</string>
+	<string>ARC warning</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property(nonatomic, strong)</string>
+	<string>ARC warning</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

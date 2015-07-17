@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>button</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>GSize buttonSize = CGSizeMake(&lt;#WIDTH#&gt;,&lt;#HEIGHT#&gt;);
+CGRect buttonRect = CGRectMake(&lt;#PARENT#&gt;.width * 0.5 - buttonSize.width * 0.5,&lt;#PARENT#&gt;.height * 0.5 - buttonSize.height * 0.5,  buttonSize.width, buttonSize.height);
+UIView* &lt;#NAME#&gt; = [[UIView alloc] initWithFrame:buttonRect];
+&lt;#NAME#&gt;.backgroundColor = &lt;#COLOR#&gt;;
+&lt;#NAME#&gt;.layer.cornerRadius = buttonRect.height * 0.20;
+
+UITapGestureRecognizer* gesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(&lt;#FUNC#&gt;)];
+[#&lt;NAME&gt; addGestureRecognizer:gesture];
+[self addSubview:sendButton];
+        
+UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, buttonSize.width, buttonSize.height)];
+label.textColor = &lt;#TEXTCOLOR#&gt;
+label.font = [UIFont fontWithName:@"HiraKakuProN-W6" size:&lt;#FONTSIZE#&gt;];
+label.text = &lt;#TEXT#&gt;
+label.textAlignment = NSTextAlignmentCenter;
+    </string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C420DD87-E767-4749-A15F-656E840756B8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

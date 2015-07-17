@@ -3,19 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>assign</string>
+	<string>alert</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, assign) &lt;#name#&gt;</string>
+	<string>NSString* msgfmt	= PALocalizedString(&lt;#key#&gt;, &lt;#desc#&gt;);
+	NSString* msg		= [NSString stringWithFormat:msgfmt, tag.name];
+	PAAlertView* alert = [[PAAlertView alloc] initWithTitle:nil message:msg cancelButtonTitle:PALOCALIZED_PACOMMON_GENERAL_CANCEL];
+
+[alert addButtonWithTitle:&lt;#title#&gt; callback:^(PAAlertView *alertView, NSInteger index) {
+
+    &lt;#code#&gt;
+}];
+
+[alert show];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E110CEC0-05C3-4CE4-A024-39719D67BD95</string>
+	<string>4275AE62-F8BB-4A5B-A556-E874CD08AE33</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property(assign)</string>
+	<string>alert</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
