@@ -11,15 +11,18 @@
 	<key>IDECodeSnippetContents</key>
 	<string>/**
  * &lt;# comment#&gt;
- */</string>
+ */
+-(&lt;#return#&gt;)&lt;#func#&gt; {
+
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>01C8A069-9B61-4043-A744-8954CC60EFC1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>comment</string>
+	<string>function with comment</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>comment</string>
+	<string>function with comment</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
