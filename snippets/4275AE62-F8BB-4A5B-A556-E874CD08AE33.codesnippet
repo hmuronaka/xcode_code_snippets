@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>alert</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSString* msgfmt	= PALocalizedString(&lt;#key#&gt;, &lt;#desc#&gt;);
+	NSString* msg		= [NSString stringWithFormat:msgfmt, tag.name];
+	PAAlertView* alert = [[PAAlertView alloc] initWithTitle:nil message:msg cancelButtonTitle:PALOCALIZED_PACOMMON_GENERAL_CANCEL];
+
+[alert addButtonWithTitle:&lt;#title#&gt; callback:^(PAAlertView *alertView, NSInteger index) {
+
+    &lt;#code#&gt;
+}];
+
+[alert show];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4275AE62-F8BB-4A5B-A556-E874CD08AE33</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>alert</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

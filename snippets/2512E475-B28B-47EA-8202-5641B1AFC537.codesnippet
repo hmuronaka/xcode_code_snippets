@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>assign</string>
+	<string>orientation_get</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property(nonatomic, assign) &lt;#name#&gt;</string>
+	<string>[[UIApplication sharedApplication] statusBarOrientation];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E110CEC0-05C3-4CE4-A024-39719D67BD95</string>
+	<string>2512E475-B28B-47EA-8202-5641B1AFC537</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>get orientation</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@property(assign)</string>
+	<string>orientation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
