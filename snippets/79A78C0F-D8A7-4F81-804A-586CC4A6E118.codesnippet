@@ -3,22 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>UIImageImageNamed</string>
+	<string>importPlusaddCommonHeader</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>Preprocessor</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIImage* &lt;#variable#&gt; = [UIImage imageNamed:@"&lt;#image#&gt;"];</string>
+	<string>#import "PACommonHeader.h"
+#import "UIView+Sizes.h"</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>08A4A61A-F21F-4EC5-B813-BCDA3B13FD94</string>
+	<string>79A78C0F-D8A7-4F81-804A-586CC4A6E118</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UIImage imageNamed</string>
+	<string>#import plusadd common headers</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

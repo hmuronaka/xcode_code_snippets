@@ -3,22 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>UIImageImageNamed</string>
+	<string>pragmagccdiagnotsitcwithdeprecate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIImage* &lt;#variable#&gt; = [UIImage imageNamed:@"&lt;#image#&gt;"];</string>
+	<string>#pragma GCC diagnostic ignored "-Wdeprecated-declarations"
+&lt;#code#&gt;
+#pragma GCC diagnostic warning "-Wdeprecated-declarations"</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>08A4A61A-F21F-4EC5-B813-BCDA3B13FD94</string>
+	<string>5F0B4751-EC37-466F-B014-EF75486C61C2</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UIImage imageNamed</string>
+	<string>pragma GCC diagnostic with deprecated</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
