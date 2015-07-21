@@ -13,7 +13,7 @@
  * &lt;# comment#&gt;
  */
 -(&lt;#return#&gt;)&lt;#func#&gt; {
-
+    &lt;#code#&gt;
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>01C8A069-9B61-4043-A744-8954CC60EFC1</string>

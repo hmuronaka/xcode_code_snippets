@@ -3,22 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>createView</string>
+	<string>NSNotificationCenterpost</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if let objects = NSBundle(forClass: self).loadNibNamed(&lt;#name#&gt;, owner: &lt;#owner#&gt;, options: &lt;#option#&gt;) as? Array {
-    var view = objects[0] as? &lt;#ViewType#&gt;
-    
-}</string>
+	<string>[[NSNotificationCenter defaultCenter] postNotificationName:&lt;#name#&gt; object:&lt;#obj or self#&gt; userInfo:&lt;#obj or nil#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C436B06C-8B6D-4233-B2FA-32067E2AC8C3</string>
+	<string>6E3F6FAA-2BDF-4BB6-BCC4-ACAC7E617D1A</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>createView from NIB</string>
+	<string>NSNotifcationCenter postNotification</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
