@@ -6,10 +6,10 @@
 	<string>string</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSString* &lt;#name#&gt; = [NSString stringWithFormat:@"&lt;#format#&gt;",&lt;#objs#&gt; ];</string>
+	<string>[NSString stringWithFormat:@"&lt;#format#&gt;",&lt;#objs#&gt; ];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DA41BC2D-67DF-460D-896A-27AA0C8E61F6</string>
 	<key>IDECodeSnippetLanguage</key>
