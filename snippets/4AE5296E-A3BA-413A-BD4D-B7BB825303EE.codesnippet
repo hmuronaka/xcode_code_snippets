@@ -3,19 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>unused</string>
+	<string>dictionary</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__attribute__((unused))</string>
+	<string>[NSMutableDictionary new]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E99AE710-02F0-4F27-BA97-CC9DF930F8DB</string>
+	<string>4AE5296E-A3BA-413A-BD4D-B7BB825303EE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>[NSMutableDictionary new]</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>attribute unused</string>
+	<string>mutable dictionary new</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

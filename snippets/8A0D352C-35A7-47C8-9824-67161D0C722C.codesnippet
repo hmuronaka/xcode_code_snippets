@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>orientation</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
+        switch (orientation) {
+            case UIInterfaceOrientationUnknown: {
+                &lt;#statement#&gt;
+                break;
+            }
+            case UIInterfaceOrientationPortrait: {
+                &lt;#statement#&gt;
+                break;
+            }
+            case UIInterfaceOrientationPortraitUpsideDown: {
+                &lt;#statement#&gt;
+                break;
+            }
+            case UIInterfaceOrientationLandscapeLeft: {
+                &lt;#statement#&gt;
+                break;
+            }
+            case UIInterfaceOrientationLandscapeRight: {
+                &lt;#statement#&gt;
+                break;
+            }
+            default: {
+                break;
+            }
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8A0D352C-35A7-47C8-9824-67161D0C722C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>orientation with switch</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
