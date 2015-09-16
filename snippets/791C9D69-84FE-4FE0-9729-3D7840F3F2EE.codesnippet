@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>jsonwritetofile</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    NSOutputStream *os = [[NSOutputStream alloc] initToFileAtPath:&lt;#path#&gt; append:NO];
+    [os open];
+    NSError* error = nil;
+    [NSJSONSerialization writeJSONObject:&lt;#json#&gt; toStream:os options:NSJSONWritingPrettyPrinted error:&amp;error];
+    [os close];
+    
+    if( error ) {
+        NSLog(@"error = %@", error);
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>791C9D69-84FE-4FE0-9729-3D7840F3F2EE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>json write to file</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>json write to file</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
