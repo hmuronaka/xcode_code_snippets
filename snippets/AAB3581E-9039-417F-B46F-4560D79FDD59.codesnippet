@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swizzleinstancemethod</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>+ (void)&lt;#prefix#&gt;_swizzleInstanceMethod:(SEL)origSel with:(SEL)newSel
+{
+    Method origMethod = class_getInstanceMethod(self, origSel);
+    Method newMethod  = class_getInstanceMethod(self, newSel);
+    
+    NSAssert(newMethod,  @"-[%@ %@] doesn't exist", NSStringFromClass(self), NSStringFromSelector(newSel));
+    
+    if (class_addMethod(self, origSel, method_getImplementation(newMethod), method_getTypeEncoding(newMethod))) {
+        class_replaceMethod(self, origSel, method_getImplementation(newMethod), method_getTypeEncoding(newMethod));
+        class_replaceMethod(self, newSel, method_getImplementation(origMethod), method_getTypeEncoding(origMethod));
+    } else {
+        method_exchangeImplementations(newMethod, origMethod);
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AAB3581E-9039-417F-B46F-4560D79FDD59</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>swizzle instance method</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
