@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>xctestexpectation</string>
+	<string>logObj</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>Preprocessor</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    XCTestExpectation * expectation = [self expectationWithDescription:@"&lt;#name#&gt;"];
-    
-    &lt;#code#&gt;
-    
-    [self waitForExpectationsWithTimeout:&lt;#time#&gt; handler:nil];</string>
+	<string>#define NSLogObj(var) NSLog(@"%20s%5d: " @#var @"=%@" , __PRETTY_FUNCTION__, __LINE__, var);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>FBF300CE-B530-459B-8C69-0F58549D37CA</string>
+	<string>E2E95CE4-D0F1-4038-AE4E-71B22146B049</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>logObj</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>xctestexpectation</string>
+	<string>logObj</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
