@@ -6,10 +6,10 @@
 	<string>logObj</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>Preprocessor</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#define NSLogObj(var) NSLog(@"%20s%5d: " @#var @"=%@" , __PRETTY_FUNCTION__, __LINE__, var);</string>
+	<string>#define NSLogObj(var) NSLog(@"%20s%5d: " @#var @"=%@" , __PRETTY_FUNCTION__, __LINE__, var)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E2E95CE4-D0F1-4038-AE4E-71B22146B049</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -21,6 +21,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
