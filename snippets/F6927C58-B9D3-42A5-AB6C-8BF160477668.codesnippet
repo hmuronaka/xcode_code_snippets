@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>plugin</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>static &lt;#classname#&gt;* _sharedInstance = nil;
+
++(void)pluginDidLoad:(NSBundle*)plugin {
+    [self sharedInstance];
+}
+
+#pragma mark class methods.
+
++(instancetype)sharedInstance {
+    static dispatch_once_t onceToken;
+    dispatch_once(&amp;onceToken, ^{
+        _sharedInstance = [[self alloc] init];
+    });
+    return _sharedInstance;
+}
+
+#pragma mark instance methods.
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(applicationDidFinishLaunching:)
+                                                   name:NSApplicationDidFinishLaunchingNotification
+                                                   object:nil];
+    }
+    return self;
+}
+
+-(void)applicationDidFinishLaunching:(NSNotification*)noti {
+    NSLog(@"didFinishLaunching)
+}
+
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F6927C58-B9D3-42A5-AB6C-8BF160477668</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>xcode plugin initialize_template</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
